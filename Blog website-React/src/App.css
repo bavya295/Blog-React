@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.design{
+  color:rgb(17, 6, 15);
+ text-align: center;
+ font-family: 'Times New Roman', Times, serif;
+}
+.one{
+  color: darkgreen;
+}
+.two{
+  color:black
+}
+.three{
+  color: crimson;
+}
+.head{
+  color:rgb(40, 75, 128);
+  font-size: 50px;
+}
+.head2{
+  background-color: rgb(240, 240, 177);
+  width:50%;
+  padding:10px 10px;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}
+.button-f{
+  background-color: black;
+  color:aquamarine;
+  position: relative;
+  top:600px;
+  left:300px;
+  padding:5px 50px;
+  top:-600px;
+
+}
+.title{
+  color:rgb(1, 15, 15);
+  position: relative;
+  top:-600px;
+  background-color: rgba(143, 129, 150, 0.441);
+}
+.lab{
+  position: relative;
+  color:rgb(178, 197, 157);
+  top:-600px;
+  width: 300px;
+  font-size:30px;
+}
+.author{
+  color:rgb(1, 10, 10);
+  position: relative;
+  top:-600px;
+  background-color: rgba(143, 129, 150, 0.441);
+}
+
+.blog{
+  color:rgb(2, 22, 22);
+  position: relative;
+  top:-600px;
+  background-color: rgba(143, 129, 150, 0.441);
+  width:400px;
+  height:200px;
+
+}
+.date-d{
+  position: relative;
+  color:antiquewhite;
+  top:-500px;
+  left:50px;
+}
+.title1{
+  color:antiquewhite;
+  position: relative;
+  top:-500px;
+  left:550px;
+  font-size: 80px;
+  width:500px;
+}
+.author1{
+  color:antiquewhite;
+  position: relative;
+  top:-300px;
+  width:1000px;
+  left:1200px;
+  font-size:35px ;
+}
+.ip1{
+  color:#61dafb;
+  top:-500px;
+  position: relative;
+  font-size: 30px;
+  left:60px;
+  width:2000px
+}
+.foot{
+  position: relative;
+  background-color: #282c34;
+  color:azure;
+  width:1500px;
+  text-align: center;
+}
